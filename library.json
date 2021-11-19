@@ -18,5 +18,6 @@
   "version": "0.1.0",
   "license": "MIT",
   "frameworks": "arduino",
-  "platforms": "*"
+  "platforms": "*",
+  "headers": "tinySHT2x.h"
 }

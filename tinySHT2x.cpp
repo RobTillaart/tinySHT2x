@@ -109,4 +109,6 @@ bool tinySHT2x::readBytes(uint8_t n, uint8_t *val, uint8_t maxDuration)
   return true;
 }
 
+
 // -- END OF FILE --
+
