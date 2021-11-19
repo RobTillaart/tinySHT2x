@@ -1,0 +1,19 @@
+# Syntax Colouring Map For SHT2x temperature and humidity sensor
+
+
+# Data types (KEYWORD1)
+tinySHT2x	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+getTemperature	KEYWORD2
+getHumidity	KEYWORD2
+reset	KEYWORD2
+
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
+tinySHT2x_LIB_VERSION	LITERAL1
+
