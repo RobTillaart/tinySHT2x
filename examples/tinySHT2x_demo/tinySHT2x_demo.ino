@@ -13,8 +13,8 @@ tinySHT2x sht;
 
 void setup()
 {
-  Stream.begin(115200);
-  Stream.println(__FILE__);
+  Serial.begin(115200);
+  Serial.println(__FILE__);
 
   sht.begin();
 }
@@ -22,9 +22,9 @@ void setup()
 
 void loop()
 {
-  Stream.print(sht.getTemperature());
-  Stream.print("\t");
-  Stream.println(sht.getHumidity());
+  Serial.print(sht.getTemperature());
+  Serial.print("\t");
+  Serial.println(sht.getHumidity());
   delay(1000);
 }
 
