@@ -74,7 +74,7 @@ void tinySHT2x::requestHumidity()
 }
 
 
-float tinySHT2x::getHumidity()
+float tinySHT2x::readHumidity()
 {
   uint8_t buffer[3];
   uint16_t raw;
