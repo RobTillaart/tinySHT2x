@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - added **isConnected()**
 - added asynchronous interface.
 - rewrote the synchronous interface.
+- add examples.
 
 ----
 
