@@ -28,7 +28,7 @@ bool tinySHT2x::begin()
 }
 
 
-bool tinySHT2x::isConnected(TwoWire *wire)
+bool tinySHT2x::isConnected()
 {
   _wire->beginTransmission(SHT2x_ADDRESS);
   return (_wire->endTransmission() == 0);

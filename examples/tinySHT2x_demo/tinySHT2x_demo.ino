@@ -16,6 +16,7 @@ void setup()
   Serial.begin(115200);
   Serial.println(__FILE__);
 
+  Wire.begin();
   sht.begin();
 }
 
