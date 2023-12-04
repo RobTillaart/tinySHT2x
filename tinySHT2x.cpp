@@ -68,9 +68,9 @@ float tinySHT2x::readTemperature()
 }
 
 
-void tinySHT2x::requestTemperature()
+void tinySHT2x::requestHumidity()
 {
-  writeCmd(SHT2x_GET_TEMPERATURE_NO_HOLD);
+  writeCmd(SHT2x_GET_HUMIDITY_NO_HOLD);
 }
 
 
@@ -79,9 +79,6 @@ float tinySHT2x::getHumidity()
   uint8_t buffer[3];
   uint16_t raw;
 
-  //  HUMIDITY
-  writeCmd(SHT2x_GET_HUMIDITY_NO_HOLD);
-  delay(30);
   if (readBytes(3, (uint8_t*) &buffer[0], 30) == false)
   {
     return TINY_SHT2x_NO_VALUE;
